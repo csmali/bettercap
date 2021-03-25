@@ -5,7 +5,7 @@ package network
 import (
 	"strings"
 
-	"github.com/bettercap/bettercap/core"
+	"github.com/csmali/bettercap/core"
 
 	"github.com/evilsocket/islazy/str"
 )

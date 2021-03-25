@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bettercap/bettercap/network"
-	"github.com/bettercap/bettercap/packets"
+	"github.com/csmali/bettercap/network"
+	"github.com/csmali/bettercap/packets"
 
 	"github.com/dustin/go-humanize"
 

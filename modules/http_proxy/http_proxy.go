@@ -1,7 +1,7 @@
 package http_proxy
 
 import (
-	"github.com/bettercap/bettercap/session"
+	"github.com/csmali/bettercap/session"
 
 	"github.com/evilsocket/islazy/str"
 )

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/bettercap/bettercap/session"
+	"github.com/csmali/bettercap/session"
 
 	"github.com/evilsocket/islazy/tui"
 	"github.com/google/gopacket/layers"

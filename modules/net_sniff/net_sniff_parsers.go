@@ -3,8 +3,8 @@ package net_sniff
 import (
 	"fmt"
 
-	"github.com/bettercap/bettercap/log"
-	"github.com/bettercap/bettercap/packets"
+	"github.com/csmali/bettercap/log"
+	"github.com/csmali/bettercap/packets"
 
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"

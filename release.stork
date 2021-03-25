@@ -6,5 +6,5 @@ version:from_user
 
 git:create_tag $VERSION
 
-docker:build "bettercap/bettercap", ".", $VERSION
-docker:create_tag "bettercap/bettercap", $VERSION, "latest"
+docker:build "csmali/bettercap", ".", $VERSION
+docker:create_tag "csmali/bettercap", $VERSION, "latest"

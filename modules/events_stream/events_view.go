@@ -2,14 +2,14 @@ package events_stream
 
 import (
 	"fmt"
-	"github.com/bettercap/bettercap/network"
-	"github.com/bettercap/bettercap/session"
+	"github.com/csmali/bettercap/network"
+	"github.com/csmali/bettercap/session"
 	"io"
 	"os"
 	"strings"
 
-	"github.com/bettercap/bettercap/modules/net_sniff"
-	"github.com/bettercap/bettercap/modules/syn_scan"
+	"github.com/csmali/bettercap/modules/net_sniff"
+	"github.com/csmali/bettercap/modules/syn_scan"
 
 	"github.com/google/go-github/github"
 

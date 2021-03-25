@@ -3,7 +3,7 @@
 package ble
 
 import (
-	"github.com/bettercap/bettercap/network"
+	"github.com/csmali/bettercap/network"
 )
 
 type ByBLERSSISorter []*network.BLEDevice

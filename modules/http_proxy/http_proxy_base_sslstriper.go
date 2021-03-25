@@ -8,9 +8,9 @@ import (
 	"strings"
 	"strconv"
 
-	"github.com/bettercap/bettercap/log"
-	"github.com/bettercap/bettercap/session"
-	"github.com/bettercap/bettercap/modules/dns_spoof"
+	"github.com/csmali/bettercap/log"
+	"github.com/csmali/bettercap/session"
+	"github.com/csmali/bettercap/modules/dns_spoof"
 
 	"github.com/elazarl/goproxy"
 	"github.com/google/gopacket"

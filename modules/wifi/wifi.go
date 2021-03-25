@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bettercap/bettercap/modules/utils"
-	"github.com/bettercap/bettercap/network"
-	"github.com/bettercap/bettercap/packets"
-	"github.com/bettercap/bettercap/session"
+	"github.com/csmali/bettercap/modules/utils"
+	"github.com/csmali/bettercap/network"
+	"github.com/csmali/bettercap/packets"
+	"github.com/csmali/bettercap/session"
 
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"

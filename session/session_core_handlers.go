@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bettercap/bettercap/core"
-	"github.com/bettercap/bettercap/network"
+	"github.com/csmali/bettercap/core"
+	"github.com/csmali/bettercap/network"
 
 	"github.com/bettercap/readline"
 	"github.com/evilsocket/islazy/str"

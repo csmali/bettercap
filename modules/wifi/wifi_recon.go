@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/bettercap/bettercap/network"
-	"github.com/bettercap/bettercap/packets"
+	"github.com/csmali/bettercap/network"
+	"github.com/csmali/bettercap/packets"
 
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"

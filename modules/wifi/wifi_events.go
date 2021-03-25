@@ -1,7 +1,7 @@
 package wifi
 
 import (
-	"github.com/bettercap/bettercap/network"
+	"github.com/csmali/bettercap/network"
 )
 
 type ClientEvent struct {

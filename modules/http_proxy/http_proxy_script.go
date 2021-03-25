@@ -3,8 +3,8 @@ package http_proxy
 import (
 	"net/http"
 
-	"github.com/bettercap/bettercap/log"
-	"github.com/bettercap/bettercap/session"
+	"github.com/csmali/bettercap/log"
+	"github.com/csmali/bettercap/session"
 
 	"github.com/robertkrimen/otto"
 

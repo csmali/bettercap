@@ -1,11 +1,11 @@
 package net_recon
 
 import (
-	"github.com/bettercap/bettercap/modules/utils"
+	"github.com/csmali/bettercap/modules/utils"
 	"time"
 
-	"github.com/bettercap/bettercap/network"
-	"github.com/bettercap/bettercap/session"
+	"github.com/csmali/bettercap/network"
+	"github.com/csmali/bettercap/session"
 )
 
 type Discovery struct {

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bettercap/bettercap/session"
+	"github.com/csmali/bettercap/session"
 
 	"github.com/gorilla/websocket"
 )

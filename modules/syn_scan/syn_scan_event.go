@@ -1,8 +1,8 @@
 package syn_scan
 
 import (
-	"github.com/bettercap/bettercap/network"
-	"github.com/bettercap/bettercap/session"
+	"github.com/csmali/bettercap/network"
+	"github.com/csmali/bettercap/session"
 )
 
 type SynScanEvent struct {

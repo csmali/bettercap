@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bettercap/bettercap/core"
+	"github.com/csmali/bettercap/core"
 )
 
 // only matches gateway lines

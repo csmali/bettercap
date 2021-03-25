@@ -8,8 +8,8 @@ import (
 	"net"
 	"strings"
 
-	"github.com/bettercap/bettercap/packets"
-	"github.com/bettercap/bettercap/session"
+	"github.com/csmali/bettercap/packets"
+	"github.com/csmali/bettercap/session"
 
 	"github.com/evilsocket/islazy/tui"
 )

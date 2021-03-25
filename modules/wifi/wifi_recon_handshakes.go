@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/bettercap/bettercap/packets"
+	"github.com/csmali/bettercap/packets"
 
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"
@@ -59,7 +59,7 @@ func (mod *WiFiModule) discoverHandshakes(radiotap *layers.RadioTap, dot11 *laye
 
 			//add the ap's station's beacon packet to be saved as part of the handshake cap file
 			//https://github.com/ZerBea/hcxtools/issues/92
-			//https://github.com/bettercap/bettercap/issues/592
+			//https://github.com/csmali/bettercap/issues/592
 
 			if ap.Station.Handshake.Beacon != nil {
 				mod.Debug("adding beacon frame to handshake for %s", apMac)

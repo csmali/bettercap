@@ -7,7 +7,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/bettercap/bettercap/network"
+	"github.com/csmali/bettercap/network"
 
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"
@@ -36,7 +36,7 @@ type Stats struct {
 type Queue struct {
 	sync.RWMutex
 
-	// keep on top because of https://github.com/bettercap/bettercap/issues/500
+	// keep on top because of https://github.com/csmali/bettercap/issues/500
 	Stats      Stats
 	Protos     sync.Map
 	Traffic    sync.Map
@@ -148,7 +148,7 @@ func (q *Queue) trackActivity(eth *layers.Ethernet, ip4 *layers.IPv4, address ne
 }
 
 func (q *Queue) TrackPacket(size uint64) {
-	// https://github.com/bettercap/bettercap/issues/500
+	// https://github.com/csmali/bettercap/issues/500
 	if q == nil {
 		panic("track packet on nil queue!")
 	}
